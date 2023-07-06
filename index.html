@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  
+
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+    }
+    
+    .navbar-title {
+      margin: 0;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .navbar-menu {
+      display: flex;
+      align-items: center;
+ 
+    }
+    
+    .navbar-menu a {
+      color: #fff;
+      margin-left: 10px;
+      text-decoration: none;
+    }
+    
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .card {
+      width: 300px;
+
+      margin-bottom: 0px;
+      background-color: #f2f2f2;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      flex-basis: 29.33%;
+         margin: 2% 2% 2% 2%;
+
+        }
+    
+    .card img {
+      width: 100%;
+      height: auto;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    
+    .card-content {
+      padding: 20px;
+    }
+    
+    .card-title {
+      margin: 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    
+    .card-description {
+      margin: 10px 0;
+      font-size: 14px;
+    }
+    
+    .navbar-hamburger {
+      display: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+
+      
+    .text{
+      margin: 4% 6%;
+      line-height: 1.3;
+      font-size: 14px;
+    }
+.h-large{
+text-align: center;
+margin: 40px auto 40px;
+font-size: 24px;
+
+}
+      
+    
+    @media screen and (max-width: 480px) {
+      .navbar-menu {
+        display: none;
+      }
+      
+      .navbar-hamburger {
+        display: block;
+      }
+      .card{
+        flex-basis: 90%;
+      }
+      
+     
+    }
+  </style>
+
+
+
+</head>
+<body>
+  <div class="navbar">
+    <h1 class="navbar-title">KANADE YAMADHITA</h1>
+    <div class="navbar-menu">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="navbar-hamburger">&#9776;</div>
+  </div>
+  
+<h1 class="h-large">テキスト</h1>
+
+  <div class="card-container">
+    
+    <div class="card animate_animated animate__shakeX">
+      <img src="image1.jpg" alt="Image 1">
+      <div class="card-content">
+        <h2 class="card-title">Card Title 1</h2>
+        <div class="text">
+        <p class="card-description">This is a description of the card.</p>
+      </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image2.jpg" alt="Image 2">
+      <div class="card-content">
+          <h2 class="card-title">Card Title 2</h2>
+        <div class="text">
+        <p class="card-description">This is a description of the card.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="image3.jpg" alt="Image 3">
+      <div class="card-content">
+        <h2 class="card-title">Card Title 3</h2>
+        <div class="text">
+        <p class="card-description">This is a description of the card.</p>
+        </div>
+      </div>
+      
